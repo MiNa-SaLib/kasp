@@ -106,7 +106,7 @@ header nav ul{
 @media(max-width:768px){
    .logo img{
         height: 40px;
-        margin-right: 100px;
+        margin-right: 200px;
     }
 header nav{
     flex: 1;
