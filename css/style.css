@@ -1,7 +1,5 @@
 /* start global rules  */
-.logo img{
-    height: 40px;
-}
+
 
 :root{
     --main-Color:#19c8fa;
@@ -102,8 +100,14 @@ header nav .toggle-menu{
 header nav ul{
     display: flex;
 }
-
+.logo img{
+    height: 40px;
+}
 @media(max-width:768px){
+   .logo img{
+        height: 40px;
+        margin-right: 100px;
+    }
 header nav{
     flex: 1;
     display: flex;
